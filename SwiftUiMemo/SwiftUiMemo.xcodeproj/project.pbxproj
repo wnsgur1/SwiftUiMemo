@@ -16,6 +16,8 @@
 		4327185D2C46586A0002F4D6 /* SwiftUiMemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4327185C2C46586A0002F4D6 /* SwiftUiMemoUITestsLaunchTests.swift */; };
 		4327186B2C46590B0002F4D6 /* SwiftUiMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432718502C46586A0002F4D6 /* SwiftUiMemoTests.swift */; };
 		4327186D2C4659340002F4D6 /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4327186C2C4659340002F4D6 /* MainListView.swift */; };
+		432718712C465A220002F4D6 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432718702C465A220002F4D6 /* Memo.swift */; };
+		432718742C465ABD0002F4D6 /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432718732C465ABD0002F4D6 /* MemoStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		4327185A2C46586A0002F4D6 /* SwiftUiMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiMemoUITests.swift; sourceTree = "<group>"; };
 		4327185C2C46586A0002F4D6 /* SwiftUiMemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiMemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4327186C2C4659340002F4D6 /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
+		432718702C465A220002F4D6 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		432718732C465ABD0002F4D6 /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,8 @@
 		4327186F2C46599B0002F4D6 /* Memory */ = {
 			isa = PBXGroup;
 			children = (
+				432718702C465A220002F4D6 /* Memo.swift */,
+				432718732C465ABD0002F4D6 /* MemoStore.swift */,
 			);
 			path = Memory;
 			sourceTree = "<group>";
@@ -286,6 +292,8 @@
 				4327186D2C4659340002F4D6 /* MainListView.swift in Sources */,
 				4327186B2C46590B0002F4D6 /* SwiftUiMemoTests.swift in Sources */,
 				432718392C4658670002F4D6 /* SwiftUiMemoApp.swift in Sources */,
+				432718712C465A220002F4D6 /* Memo.swift in Sources */,
+				432718742C465ABD0002F4D6 /* MemoStore.swift in Sources */,
 				4327183E2C4658670002F4D6 /* SwiftUiMemo.xcdatamodeld in Sources */,
 				4327183B2C4658670002F4D6 /* Persistence.swift in Sources */,
 			);
