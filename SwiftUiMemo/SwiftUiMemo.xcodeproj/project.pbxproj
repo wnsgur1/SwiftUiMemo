@@ -10,12 +10,12 @@
 		432718392C4658670002F4D6 /* SwiftUiMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432718382C4658670002F4D6 /* SwiftUiMemoApp.swift */; };
 		4327183B2C4658670002F4D6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4327183A2C4658670002F4D6 /* Persistence.swift */; };
 		4327183E2C4658670002F4D6 /* SwiftUiMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4327183C2C4658670002F4D6 /* SwiftUiMemo.xcdatamodeld */; };
-		432718402C4658670002F4D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4327183F2C4658670002F4D6 /* ContentView.swift */; };
 		432718422C46586A0002F4D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432718412C46586A0002F4D6 /* Assets.xcassets */; };
 		432718462C46586A0002F4D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432718452C46586A0002F4D6 /* Preview Assets.xcassets */; };
-		432718512C46586A0002F4D6 /* SwiftUiMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432718502C46586A0002F4D6 /* SwiftUiMemoTests.swift */; };
 		4327185B2C46586A0002F4D6 /* SwiftUiMemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4327185A2C46586A0002F4D6 /* SwiftUiMemoUITests.swift */; };
 		4327185D2C46586A0002F4D6 /* SwiftUiMemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4327185C2C46586A0002F4D6 /* SwiftUiMemoUITestsLaunchTests.swift */; };
+		4327186B2C46590B0002F4D6 /* SwiftUiMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432718502C46586A0002F4D6 /* SwiftUiMemoTests.swift */; };
+		4327186D2C4659340002F4D6 /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4327186C2C4659340002F4D6 /* MainListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 		432718382C4658670002F4D6 /* SwiftUiMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiMemoApp.swift; sourceTree = "<group>"; };
 		4327183A2C4658670002F4D6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		4327183D2C4658670002F4D6 /* SwiftUiMemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUiMemo.xcdatamodel; sourceTree = "<group>"; };
-		4327183F2C4658670002F4D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		432718412C46586A0002F4D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		432718432C46586A0002F4D6 /* SwiftUiMemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUiMemo.entitlements; sourceTree = "<group>"; };
 		432718452C46586A0002F4D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -50,6 +49,7 @@
 		432718562C46586A0002F4D6 /* SwiftUiMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUiMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4327185A2C46586A0002F4D6 /* SwiftUiMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiMemoUITests.swift; sourceTree = "<group>"; };
 		4327185C2C46586A0002F4D6 /* SwiftUiMemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiMemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4327186C2C4659340002F4D6 /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,13 +100,14 @@
 		432718372C4658670002F4D6 /* SwiftUiMemo */ = {
 			isa = PBXGroup;
 			children = (
+				4327186F2C46599B0002F4D6 /* Memory */,
+				4327186E2C46595A0002F4D6 /* CoreData */,
 				432718382C4658670002F4D6 /* SwiftUiMemoApp.swift */,
-				4327183A2C4658670002F4D6 /* Persistence.swift */,
-				4327183F2C4658670002F4D6 /* ContentView.swift */,
+				4327186C2C4659340002F4D6 /* MainListView.swift */,
+				432718502C46586A0002F4D6 /* SwiftUiMemoTests.swift */,
 				432718412C46586A0002F4D6 /* Assets.xcassets */,
 				432718432C46586A0002F4D6 /* SwiftUiMemo.entitlements */,
 				432718472C46586A0002F4D6 /* Info.plist */,
-				4327183C2C4658670002F4D6 /* SwiftUiMemo.xcdatamodeld */,
 				432718442C46586A0002F4D6 /* Preview Content */,
 			);
 			path = SwiftUiMemo;
@@ -123,7 +124,6 @@
 		4327184F2C46586A0002F4D6 /* SwiftUiMemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				432718502C46586A0002F4D6 /* SwiftUiMemoTests.swift */,
 			);
 			path = SwiftUiMemoTests;
 			sourceTree = "<group>";
@@ -135,6 +135,22 @@
 				4327185C2C46586A0002F4D6 /* SwiftUiMemoUITestsLaunchTests.swift */,
 			);
 			path = SwiftUiMemoUITests;
+			sourceTree = "<group>";
+		};
+		4327186E2C46595A0002F4D6 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				4327183C2C4658670002F4D6 /* SwiftUiMemo.xcdatamodeld */,
+				4327183A2C4658670002F4D6 /* Persistence.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		4327186F2C46599B0002F4D6 /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Memory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4327186D2C4659340002F4D6 /* MainListView.swift in Sources */,
+				4327186B2C46590B0002F4D6 /* SwiftUiMemoTests.swift in Sources */,
 				432718392C4658670002F4D6 /* SwiftUiMemoApp.swift in Sources */,
 				4327183E2C4658670002F4D6 /* SwiftUiMemo.xcdatamodeld in Sources */,
-				432718402C4658670002F4D6 /* ContentView.swift in Sources */,
 				4327183B2C4658670002F4D6 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,7 +295,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				432718512C46586A0002F4D6 /* SwiftUiMemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +447,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUiMemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftUiMemo/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -468,6 +485,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUiMemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftUiMemo/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
